@@ -1,3 +1,9 @@
+# Programmer: Peter Oo
+# Location  : Yangon, Myanmar
+# Finished date: Jul / 13 / 2022
+# Issued date  : Jul / 15 / 2022
+# This is an educational python programs, and free to be used or modified.
+
 from tkinter import *
 from random import randint
 
