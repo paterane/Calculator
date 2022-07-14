@@ -1,5 +1,6 @@
 # Calculator
-Programmer: Peter Oo
+Programmer: Peter Oo.
+
 It is a `Simple GUI Calculator Program` written in `tkinter python`.
 
 Complete python source file is uploaded, but we are here to learn the `basic mechanism`.
