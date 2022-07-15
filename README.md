@@ -1,5 +1,6 @@
-# Calculator
-Programmer: Peter Oo.
+# CALCULATOR ![maths-calculate-10599](https://user-images.githubusercontent.com/93751945/179156818-c4928e46-a788-4f9b-81c8-c1e0367b45d2.png)
+
+*Programmer: Peter Oo*
 
 It is a `Simple GUI Calculator Program` written in `tkinter python`.
 
@@ -17,10 +18,10 @@ Creating a window for any widgets to be placed on it, the following codes are us
 ```python
 # Creating a windows form
 win = Tk()
-# infinite loop to display it until red cross button is hit.
 # your statements
 # your statements
 # your statements!!!
+# infinite loop to display it until red cross button is hit.
 win.mainloop()
 ```
 The remaining statements belonged to windows form shall be coded inside the `win` object and its `mainloop`.
@@ -64,7 +65,7 @@ It is bloooooody.!
 The next step, We are going to create the **buttons**....
 ```python
 button_n = Button(frame,        # need to create a frame to layout buttons using .grid() methods
-                  text='/',
+                  text='C',
                   font=('Arial', 12),
                   width=5,
                   height=2)
@@ -88,7 +89,7 @@ Then, when we hit the buttons, it should do something like printing data, or cal
 We will need to add `command option` when we create the button widgets like....
 ```python
 button_n = Button(frame,    
-                  text='/',
+                  text='C',
                   font=('Arial', 12),
                   width=5,
                   height=2,
@@ -108,7 +109,7 @@ It is crazy!!! 😅😅😅
 
 Well, as a final step, it is time to compile the source code to get executable file. For that, we will use pyinstaller, and following command will be typed in the command prompt.
 
-`pyinstaller --noconfirm --windowed --icon "D:\Python\...\logo.ico" "D:\Python\...\calculator.py"`
+`pyinstaller --noconfirm --windowed --icon "[Your Drive:]\...\logo.ico" "[Your Drive:]\...\calculator.py"`
 
 And, Done, we are ready to play our own calculator.
 
